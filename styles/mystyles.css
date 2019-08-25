@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  width: 80vw;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.box {
+  position: absolute;
+}
+
+.border {
+  border: 1px solid black;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.my-3 {
+  margin: 3rem 0;
+}
+
+.my-4 {
+  margin: 4rem 0;
+}
+
+.scoreFont {
+  font-size: 4rem;
+}
+
+#scoreboard {
+  height: 700px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#scoreboard .player1,
+#scoreboard .player2 {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#scoreboard .activeBg {
+  background-color: #f7c455;
+}
+
+#scoreboard .holdBox {
+  margin: 3rem auto 1rem auto;
+  width: 200px;
+  height: 200px;
+  background-color: #f00;
+}
+
+#scoreboard .holdBox h4 {
+  padding: 2rem;
+  font-size: 1.5rem;
+}
+
+#scoreboard .holdBox h1 {
+  font-size: 4rem;
+}
+
+#diceboard {
+  height: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#diceboard .btn-dark {
+  border: 1px soild black;
+  padding: 0.75rem 1.25rem;
+}
+
+#diceboard button {
+  font-size: 1.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}

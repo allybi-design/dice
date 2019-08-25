@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./styles/mystyles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- <h1 class="">Dice Game</h1> -->
+      <div class="box ">
+        <div id="scoreboard" class="container border text-center my-4">
+          <div id="player1_board" class="player1 activeBg">
+            <h1 class="my-3">Player 1</h1>
+            <h2 id="player1_score" class="scoreFont">0</h2>
+            <div class="holdBox my-4">
+              <h4>Current</h4>
+              <h1 id="player1_holdscore">0</h1>
+            </div>
+          </div>
+
+          <div id="player2_board" class="player2 ">
+            <h1 class="my-3">Player 2</h1>
+            <h2 id="player2_score" class="scoreFont">0</h2>
+            <div class="holdBox my-4">
+              <h4>Current</h4>
+              <h1 id="player2_holdscore">0</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="box ">
+        <div id="diceboard" class="container  my-4">
+          <button id="startButton" class="btn-dark my-3">
+            <i class="fas fa-plus-circle px-3"></i>
+             START NEW GAME
+          </button>
+
+          <div id="diceDiv">
+           
+          </div>
+
+          <h1>Press 'Space' to role</h1>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="js/script.js"></script>
+</html>

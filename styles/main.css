@@ -1,0 +1,55 @@
+#p1board,
+#p2board {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-content: space-around;
+  align-items: center;
+  height: 600px;
+}
+
+.activePlayer {
+  background-color: #f7c455;
+  
+}
+.level {
+  position: relative;
+  left:0;
+  top: 0;
+}
+.restingPlayer {
+  border: 1px solid #000;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-content: space-around;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  background-color: red;
+}
+
+#diceboard {
+  position: absolute;
+  top: 150px;
+  left: px;
+  /* border: 1px solid #000; */
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-content: space-between;
+  align-items: center;
+}
+
+img {
+    margin: 5rem 0;
+    width:200px;
+    height:200px;
+    display:block
+}
